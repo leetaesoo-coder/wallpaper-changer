@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 
-email_password = "qgxtrfapiuyxlbbr"
-email_address = "adrian.romanov.01@gmail.com"
+email_password = "**************"
+email_address = "*****************@gmail.com"
 
 def send_email(photo_id):
   image_data = open(f'D:/Photos/중요한/---/Python Script Wallpapers/mobile/{photo_id}.jpg', 'rb').read()

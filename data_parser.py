@@ -5,7 +5,7 @@ import json
 categories = ['animals','wallpapers','music','piano','sports','landscape','nature','travel','buisness','work','technology','programming','coding','motivation','life','interiors','arhitecture','food','red','design','car','city','home']
 page_number = 20
 
-key = 'qObf1S9HyrJygxOrQLlQlgTw7KNG5jxqkfSW0PGXlOM'
+key = '********************************************'
 
 def getAPIData():
   page = random.randint(1,page_number)
